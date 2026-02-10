@@ -11,7 +11,6 @@ queue_rules:
     autoqueue: true
 merge_protections:
   - name: mergeit
-    if:
-      - base = main
+    if: []
     success_conditions:
       - label = mergeit
